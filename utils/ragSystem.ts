@@ -82,7 +82,7 @@ export interface GraduationPlan {
 
 class RAGSystem {
   private curriculumContext: CurriculumContext | null = null;
-  private OPENROUTER_API_KEY = "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";
+  private OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "";
 
   // Initialize RAG system with curriculum PDF
   async initializeCurriculum(regulationName: string): Promise<void> {

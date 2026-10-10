@@ -1,7 +1,7 @@
 // اختبار مفتاح Gemini API
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const API_KEY = 'AIzaSyBGSCXOaOiwXJfpEY08a0eNPb2bbJ1vbPc';
+const API_KEY = process.env.GEMINI_API_KEY || '';
 
 async function testGeminiAPI() {
   try {

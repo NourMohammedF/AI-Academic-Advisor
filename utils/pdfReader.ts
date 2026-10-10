@@ -20,7 +20,7 @@ if (typeof window !== 'undefined') {
   pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
 }
 
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "";
 
 // Extract text from PDF using pdfjs-dist
 async function extractPdfText(file: File): Promise<string> {
