@@ -2,7 +2,7 @@
 export const API_CONFIG = {
   // مفتاح Gemini API الحقيقي
   // تأكد من أن المفتاح صحيح وتم تفعيله في Google AI Studio
-  GEMINI_API_KEY: process.env.GEMINI_API_KEY || 'AIzaSyBGSCXOaOiwXJfpEY08a0eNPb2bbJ1vbPc',
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY || '',
   
   // APIs مجانية (لا تحتاج مفاتيح)
   JOKE_API_URL: process.env.JOKE_API_URL || 'https://official-joke-api.appspot.com/random_joke',
