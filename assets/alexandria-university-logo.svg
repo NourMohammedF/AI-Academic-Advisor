@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- خلفية دائرية -->
+  <circle cx="100" cy="100" r="95" fill="#1e3a8a" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- برج الإسكندرية (الفنار) -->
+  <rect x="85" y="60" width="30" height="60" fill="#fbbf24" rx="2"/>
+  <rect x="87" y="65" width="26" height="50" fill="#1e3a8a"/>
+  
+  <!-- قمة البرج -->
+  <polygon points="100,50 110,60 90,60" fill="#fbbf24"/>
+  
+  <!-- النوافذ -->
+  <rect x="90" y="70" width="8" height="8" fill="#fbbf24"/>
+  <rect x="102" y="70" width="8" height="8" fill="#fbbf24"/>
+  <rect x="90" y="85" width="8" height="8" fill="#fbbf24"/>
+  <rect x="102" y="85" width="8" height="8" fill="#fbbf24"/>
+  
+  <!-- البحر -->
+  <path d="M 20 140 Q 50 130 100 140 Q 150 130 180 140 L 180 160 L 20 160 Z" fill="#3b82f6"/>
+  
+  <!-- الشمس -->
+  <circle cx="160" cy="40" r="15" fill="#fbbf24"/>
+  <circle cx="160" cy="40" r="12" fill="#fef3c7"/>
+  
+  <!-- النص -->
+  <text x="100" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">
+    جامعة الإسكندرية
+  </text>
+  <text x="100" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e3a8a">
+    كلية التربية
+  </text>
+</svg> 

@@ -1,0 +1,65 @@
+{
+  "student_info": {
+    "national_id": "30306190201631",
+    "name": "نور محمد فوزى فرج فرج",
+    "passed_hours": 106,
+    "cgpa_final": 3.0154,
+    "total_hours": 106
+  },
+  "latest_semester": {
+    "semester_name": "فصل الخريف 2022-2023",
+    "semester_type": "الخريف",
+    "academic_year": "2022-2023",
+    "gpa": 3.15,
+    "gpa_hours": 18,
+    "cgpa": 3.0154,
+    "cgpa_hours": 106
+  },
+  "courses": [
+    {
+      "course_name": "التربية الإسلامية",
+      "grade": "A-",
+      "grade_numeric": 85,
+      "credit_hours": 3,
+      "points": "3.666",
+      "passed": true,
+      "added_to_cgpa": true
+    },
+    {
+      "course_name": "علم النفس التربوي",
+      "grade": "A",
+      "grade_numeric": 90,
+      "credit_hours": 3,
+      "points": "4.0",
+      "passed": true,
+      "added_to_cgpa": true
+    },
+    {
+      "course_name": "مناهج وطرق التدريس",
+      "grade": "B+",
+      "grade_numeric": 80,
+      "credit_hours": 3,
+      "points": "3.3",
+      "passed": true,
+      "added_to_cgpa": true
+    },
+    {
+      "course_name": "تقنيات التعليم",
+      "grade": "A",
+      "grade_numeric": 90,
+      "credit_hours": 3,
+      "points": "4.0",
+      "passed": true,
+      "added_to_cgpa": true
+    },
+    {
+      "course_name": "الإدارة التربوية",
+      "grade": "B",
+      "grade_numeric": 75,
+      "credit_hours": 3,
+      "points": "3.0",
+      "passed": true,
+      "added_to_cgpa": true
+    }
+  ]
+}

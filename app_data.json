@@ -1,0 +1,33 @@
+{
+  "name": "نور محمد فوزى فرج فرج",
+  "studentId": "30306190201631",
+  "academicYear": "2022-2023",
+  "semester": "فصل الخريف 2022-2023",
+  "grades": [
+    {
+      "subject": "التربية الإسلامية",
+      "grade": "85",
+      "creditHours": "3"
+    },
+    {
+      "subject": "علم النفس التربوي",
+      "grade": "90",
+      "creditHours": "3"
+    },
+    {
+      "subject": "مناهج وطرق التدريس",
+      "grade": "80",
+      "creditHours": "3"
+    },
+    {
+      "subject": "تقنيات التعليم",
+      "grade": "90",
+      "creditHours": "3"
+    },
+    {
+      "subject": "الإدارة التربوية",
+      "grade": "75",
+      "creditHours": "3"
+    }
+  ]
+}
